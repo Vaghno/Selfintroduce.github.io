@@ -1,0 +1,96 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.left {
+    flex: 1;
+    text-align: left;
+}
+div.left{
+    text-decoration: none;
+    display: inline-grid;
+}
+div.left a{
+    text-decoration: none;
+    padding: 20px;
+    color:black;
+}
+.center {
+    flex: 2;
+    text-align: center;
+}
+div.center{
+    text-decoration: none;
+    display: inline-grid;
+}
+div.center c{
+    padding: 20px;
+    color:black;
+}
+h1{
+    padding-bottom: 50px;
+    padding-right: 50px;
+}
+.right {
+    flex: 1;
+    text-align: right;
+}
+div.right p{
+    padding-right: 50px;
+}
+div.right img{
+    padding-right: 70px;
+}
+header {
+    background-color: lightblue;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+nav{
+    background-color: #C0C0C0;
+}
+nav a{
+    color: white;
+    font-family: fantasy;
+    padding: 60px;
+    text-decoration: none;
+
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    margin: 20px;
+    padding-left: 340px;
+}
+footer {
+    background-color:lightblue;
+    color: black;
+    padding: 20px;
+    font-family: arial;
+    margin-top: auto;
+}
+footer p{
+    padding-inline: 22px;
+    font-size: 160%;
+}
+footer a{
+    padding: 40px;
+    padding-left: 80px;
+}
+
+.footer-icon {
+    padding: 20%;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer-icon img {
+    height: 30px;
+}
